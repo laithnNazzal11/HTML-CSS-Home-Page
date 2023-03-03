@@ -1,0 +1,450 @@
+body {
+    font-family: inter;
+    margin:0;
+}
+
+.container {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+header {
+    padding-top: 20px;
+    background-color: #1c57c9;
+    height: 800px;
+    border-radius: 0 0 200%;
+    width: 80%;
+
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    min-height: 97px;
+}
+
+header .logo img {
+    height: 40px;
+}
+
+
+header nav {
+    flex: 1;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    
+}
+
+header nav ul li {
+    display: block;
+    list-style: none;
+    color: yellow;
+    
+}
+
+header nav ul {
+    display: flex;
+    padding-left: 60px;
+}
+
+header nav ul li a {
+    display: block;
+    color: #5b85d8;
+    font-size:14px;
+    padding: 40px 10px;
+    text-decoration: none;
+    position: relative;
+  
+}
+
+header nav ul li a.active {
+ color: white;
+  
+}
+
+header nav ul li a.five {
+    color: black;
+    /* margin-left: 300px; */
+    position: absolute;
+    right: -140;
+}
+
+header nav ul li a.six {
+    color: #3acf6e;
+    /* margin-left: 300px; */
+    position: absolute;
+    right: -240;
+}
+
+header .img img {
+    position: absolute;
+    right: -110px;
+    top: 65px;
+}
+
+header .img .two {
+    right: -165px;
+    top: 395px;
+}
+
+/* end header */ 
+.landing {
+    min-height: 100vh;
+    position:absolute;
+    width: 50%;
+    text-align: left;
+    top:25%;
+
+}
+.landing h1 {
+    color: white;
+    font-size: 50px;
+}
+
+.landing h1 span {
+    color: #3bd36b;
+   
+}
+
+.landing p {
+    color:white;
+}
+
+.landing  button{
+    margin-top:20px;
+    padding: 10px 15px;
+    margin-right: 10px;
+    border: none;
+    background-color:#3acf6e;
+    color:white;
+    border-radius: 5px;
+    
+
+}
+
+.landing  .learn{
+    background-color:#1c57c9;
+    border: 1px solid white;
+
+}
+
+/* end */
+
+.feutar {
+    padding-top: 100px;
+}
+
+ /* .feutar p { 
+    padding-bottom: 100px;
+}
+*/ 
+
+.feutar .all {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.feutar .all .imaag {
+    width: 40%;
+}
+
+.feutar .all .item {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width:60%;
+ 
+}
+
+.feutar .all .item div {
+    width: 45%;
+    
+}
+
+.feutar .all .item div p {
+    color: #606b86;
+}
+
+/* start update */
+
+.update {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+}
+.update .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.update .rigth {
+    width: 40%;
+}
+.update .rigth P {
+    padding: 0;
+    margin: 0;
+    margin-left: 70px;
+    color:#1c57c9;
+    letter-spacing: 8;
+
+
+}
+.update .rigth h2 {
+    padding: 0;
+    margin: 10px;
+    margin-left: 70px;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+
+.update .rigth img {
+    position: absolute;
+    width: 50%;
+    bottom:300px;
+}
+
+
+
+
+.update .left {
+    background-color: #1c57c9;
+    width: 40%;
+    padding: 50px;
+    border-radius: 0 0 0 300px;
+    text-align: center;
+
+    
+}
+.update .left img {
+    padding-top: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/* start sercvise */
+
+.sercvise {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.sercvise .ser-top {
+    padding: 0;
+    margin: 0;
+    margin-left: 70px;
+    color:#1c57c9;
+    letter-spacing: 15;
+
+}
+
+.sercvise .ser-bottom {
+    color:#606b86;
+    
+}
+.sercvise .item {
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+    align-items: center;
+
+
+}
+
+.sercvise .item div {
+    background-color: white;
+    box-shadow: 0px 0px 20px -15px  black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+
+.sercvise .item img {
+    width:30%;
+
+}
+
+.sercvise .item p {
+    width:60%;
+    
+
+}
+
+.sercvise  h1 {
+   font-size: 50px;
+   font-weight: 400;
+    
+
+}
+/* start test */
+
+.test {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.test p {
+    padding: 0;
+    margin: 0;
+    margin-left: 70px;
+    color:#1c57c9;
+    letter-spacing: 8;
+}
+
+.test h2 {
+    font-size: 50px;
+    font-weight: 400;
+
+
+}
+
+.test image {
+    display: flex;
+
+}
+
+.test image img {
+    width:50%;
+
+}
+
+
+/* contact */
+
+.contact  {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.contact .container {
+    display: flex;
+    justify-content: space-between;
+}
+.contact .rig {
+    width: 50%;
+}
+
+.contact .rig p {
+    padding: 0;
+    margin: 5;
+    color:#1c57c9;
+    letter-spacing: 8;
+}
+.contact .rig h2 {
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    line-height:1.3;
+    margin-bottom: 50px;
+
+}
+.contact .lef {
+    width: 40%;
+}
+
+.contact .lef label {
+    display: block;
+    font-size: 15px;
+}
+
+.contact .lef div {
+    margin-bottom:10px;
+   
+}
+
+.contact .lef div input {
+    width:60%;
+    padding:15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    box-shadow: 0px 0px 10px -5px  black;
+
+
+   
+}
+.contact .lef div textarea {
+    width:60%;
+    padding:10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height:15%;
+    border: none;
+    box-shadow: 0px 0px 10px -5px  black;
+
+
+   
+}
+
+.contact .lef button {
+    margin-top:20px;
+    padding: 10px 25px;
+    margin-right: 10px;
+    border: none;
+    background-color:#3acf6e;
+    color:white;
+    border-radius: 5px;
+}
+
+.be-footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.be-footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+.be-footer .two   .f {
+    color: #1c57c9;
+
+}
+
+.be-footer p {
+    color:#606b86;
+}
+
+.be-footer  .o {
+    color:black;
+}
+
+.be-footer  .four p i {
+    margin-right: 20px;
+}
+.be-footer  .four  {
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
